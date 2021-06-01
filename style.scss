@@ -52,7 +52,6 @@ body {
         text-align: center;
         font-size: 2.25 * $size-unit;
     }
-    
     .cookie-pop-up__button {
         @include thin-border();
         width: 22 * $size-unit;
