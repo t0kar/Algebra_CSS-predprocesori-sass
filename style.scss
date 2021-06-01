@@ -18,6 +18,8 @@ $color-light: white;
 
 body {
     display: flex;
+    @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+    font-family: 'Staatliches', cursive;
     position: relative;
     flex-flow: column nowrap;
     justify-content: space-evenly;
@@ -41,14 +43,15 @@ body {
         height: 96px;
         width: 96px;
     }
-
     .cookie-pop-up__header {
         color: $color-dark;
         font-size: 6 * $size-unit;
+        font-family: 'Staatliches', cursive;
     }
     .cookie-pop-up__text {
         width: 22 * $size-unit;
-        color: $color-dark;
+        font-weight: lighter;
+        color: lighten($color-dark, 50%);
         text-align: center;
         font-size: 2.25 * $size-unit;
     }

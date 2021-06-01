@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 *, *::before, *::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -9,6 +10,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-family: 'Staatliches', cursive;
   position: relative;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -54,11 +56,13 @@ body {
 .cookie-pop-up .cookie-pop-up__header {
   color: black;
   font-size: 48px;
+  font-family: 'Staatliches', cursive;
 }
 
 .cookie-pop-up .cookie-pop-up__text {
   width: 176px;
-  color: black;
+  font-weight: lighter;
+  color: gray;
   text-align: center;
   font-size: 18px;
 }
