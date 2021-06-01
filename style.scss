@@ -50,7 +50,6 @@ body {
     }
     .cookie-pop-up__text {
         width: 22 * $size-unit;
-        font-weight: lighter;
         color: lighten($color-dark, 50%);
         text-align: center;
         font-size: 2.25 * $size-unit;
