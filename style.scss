@@ -39,6 +39,23 @@ body {
     border: none;
     border-radius: $size-unit;
 
+    .cookie-pop-up__close {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        line-height: 0;
+        top: $size-unit;
+        right: $size-unit;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .cookie-pop-up__close > img {
+        height: 16px;
+        width: 16px;
+    }
+
     .cookie-pop-up__image {
         height: 96px;
         width: 96px;
@@ -62,5 +79,6 @@ body {
         border-radius: 4 * $size-unit;
         color: $color-light;
         font-size: 1.75 * $size-unit;
+        cursor: pointer;
     }
 }

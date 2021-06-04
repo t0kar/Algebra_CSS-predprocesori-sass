@@ -48,6 +48,23 @@ body {
   border-radius: 8px;
 }
 
+.cookie-pop-up .cookie-pop-up__close {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  top: 8px;
+  right: 8px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.cookie-pop-up .cookie-pop-up__close > img {
+  height: 16px;
+  width: 16px;
+}
+
 .cookie-pop-up .cookie-pop-up__image {
   height: 96px;
   width: 96px;
@@ -74,5 +91,6 @@ body {
   border-radius: 32px;
   color: white;
   font-size: 14px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
